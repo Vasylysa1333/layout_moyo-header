@@ -4,10 +4,10 @@
 
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
-  font-style: 500px;
+
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500px;
   font-size: 12px;
-  text-transform: uppercase;
 }
 
 .header {
@@ -21,10 +21,10 @@ body {
   display: block;
   height: 40px;
   width: 40px;
-  align-items: center;
 }
 
 .nav {
+  display: flex;
   justify-content: end;
 }
 
@@ -37,6 +37,7 @@ body {
 
 .nav__link {
   margin-left: 20px;
+  text-transform: uppercase;
 }
 
 .nav__link:first-child {
@@ -48,7 +49,6 @@ body {
   text-decoration: none;
   height: 60px;
   line-height: 60px;
-  text-align: center;
 
   color: black;
 }
